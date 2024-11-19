@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="speedTypingTest" class="container">
+        <h1 class="title">Typing Test</h1>
+        <p class="subtitle">On your fingers let's set Go!</p>
+        <p id="timer" class="timer">Timer: <span>0</span> seconds</p>
+        <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" alt="Clock Image" class="img-fluid mb-3">
+        <p id="quoteDisplay">Loading quote...</p>
+        <div class="spinner-border" role="status" id="spinner">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <textarea id="quoteInput" rows="5" placeholder="Type the quote here..."></textarea>
+        <button id="submitBtn" class="btn btn-success">Submit</button>
+        <button id="resetBtn" class="btn btn-primary">Reset</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(to right, #fce4ec, #e3f2fd);
+    /* Light pink to soft blue gradient */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+}
+
+/* Container Styling (Card) */
+.container {
+    background: #f0f4f8;
+    /* Pale blue-gray mix */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    margin: auto;
+    border: 2px solid #d0d7de;
+    /* Light gray border */
+}
+
+/* Title Styling */
+.title {
+    color: #2c3e50;
+    /* Darker gray-blue */
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Subtitle Styling */
+.subtitle {
+    color: #5c6bc0;
+    /* Cool muted blue */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Timer Styling */
+.timer {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #455a64;
+    /* Neutral dark gray */
+    font-weight: bold;
+}
+
+/* Quote Display Styling */
+#quoteDisplay {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: lightblue;
+    /* Light pale pink background */
+    padding: 15px;
+    border-radius: 8px;
+    color: #424242;
+    /* Dark gray text for readability */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Textarea Styling */
+#quoteInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #b0bec5;
+    /* Subtle border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fafafa;
+    /* Light gray for input */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    color: #333;
+}
+
+/* Buttons Styling */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+#submitBtn {
+    background-color: #90caf9;
+    /* Light blue button */
+    color: #ffffff;
+}
+
+#submitBtn:hover {
+    background-color: #64b5f6;
+    /* Slightly darker blue */
+}
+
+#resetBtn {
+    background-color: #ce93d8;
+    /* Soft lavender button */
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+#resetBtn:hover {
+    background-color: #ba68c8;
+    /* Darker lavender */
+}
+
+/* Spinner Styling */
+.spinner-border {
+    margin: 20px auto;
+    display: none;
+}
+
+/* Result Styling */
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    #quoteInput {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
